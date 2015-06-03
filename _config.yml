@@ -1,0 +1,13 @@
+# Site settings
+title: Law Inno
+email: admin@lawinno.com
+description: > # this means to ignore newlines until "baseurl:"
+  A Lawyer's Guide to the Future of Law.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://lawinno.github.io" # the base hostname & protocol for your site
+twitter_username: lawinno
+github_username:  lawinno
+github_reponame: lawinno.github.io
+
+# Build settings
+markdown: kramdown
