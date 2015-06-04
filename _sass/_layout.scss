@@ -1,6 +1,5 @@
-/**
- * Site header
- */
+/** Site header **/
+
 .site-header {
     min-height: 56px;
     background: $dark-primary;
@@ -95,7 +94,7 @@
     }
 }
 
-/** Home page styling **/
+/** Home page **/
 
 .home {
 
@@ -117,12 +116,31 @@
         padding: 0 12%;
         font-size: 30px;
     }
+    #icon-block-row {
+        margin-top:40px;
+        margin-bottom:80px;
+    }
+    .icon-block {
+        min-height:250px;
+        text-align:center;
+        padding:20px;
+        h1 {
+            font-size: 30px;
+            padding-bottom:25px;
+        }
+        img {
+            width:50px;
+
+        }
+    }
+    .icon-block:hover {
+        background: $grey-color-light;
+    }
 }
 
 
-/**
- * Site footer
- */
+/** Footer  **/
+
 footer {
     background: $grey-color-light;
     position:relative;
@@ -143,6 +161,7 @@ footer {
 
 #subscribe-form {
     padding-left:50px;
+    font-weight:300;
 }
 
 #footer-content {
@@ -207,9 +226,8 @@ footer {
 
 
 
-/**
- * Page content
- */
+/** Pages **/ 
+
 .page-content {
     padding: $spacing-unit 0;
     min-height:700px;
@@ -260,7 +278,6 @@ footer {
 
 .post-content {
     margin-bottom: $spacing-unit;
-    max-width: 700px;
     min-width: 300px;
     float:left;
     padding:50px;
@@ -322,5 +339,12 @@ form {
 #learn:hover {
     background:transparent;
     color:$text-color;
+}
+
+/** Miscellaneous **/
+
+#tag-list {
+    margin-top:50px;
+    color:$primary;
 }
 

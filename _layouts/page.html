@@ -3,9 +3,12 @@ layout: default
 ---
 <div class="post">
 
-
   <article class="post-content">
-    {{ content }}    
+  	<h2>{{ page.title }}</h2>
+    {{ content }}
+    {% if page.tags %}
+    	<p id="tag-list">Tags: {{ page.tags }}</p>
+	{% endif %}
   </article>
 
 

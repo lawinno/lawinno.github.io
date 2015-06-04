@@ -89,7 +89,7 @@ li > ol {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300; }
 
-h1, h2, h3 {
+h1, h2 {
   font-size: 18px; }
 
 /**
@@ -143,16 +143,16 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(1100px - (30px * 2));
-  max-width: calc(1100px - (30px * 2));
+  max-width: -webkit-calc(1170px - (30px * 2));
+  max-width: calc(1170px - (30px * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
   padding-left: 30px; }
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 980px) {
     .wrapper {
-      max-width: -webkit-calc(1100px - (30px));
-      max-width: calc(1100px - (30px));
+      max-width: -webkit-calc(1170px - (30px));
+      max-width: calc(1170px - (30px));
       padding-right: 15px;
       padding-left: 15px; } }
 
@@ -175,9 +175,7 @@ pre {
   .icon > svg path {
     fill: #727272; }
 
-/**
- * Site header
- */
+/** Site header **/
 .site-header {
   min-height: 56px;
   background: #455A64;
@@ -207,7 +205,7 @@ pre {
         margin-left: 20px; }
     .site-header .site-nav .page-link:hover {
       color: #009688; }
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 320px) {
       .site-header .site-nav {
         position: absolute;
         top: 9px;
@@ -240,7 +238,7 @@ pre {
           display: block;
           padding: 5px 10px; } }
 
-/** Home page styling **/
+/** Home page **/
 .home {
   width: 100%;
   padding: 30px 50px;
@@ -255,10 +253,22 @@ pre {
     text-align: center;
     padding: 0 12%;
     font-size: 30px; }
+  .home #icon-block-row {
+    margin-top: 40px;
+    margin-bottom: 80px; }
+  .home .icon-block {
+    min-height: 250px;
+    text-align: center;
+    padding: 20px; }
+    .home .icon-block h1 {
+      font-size: 30px;
+      padding-bottom: 25px; }
+    .home .icon-block img {
+      width: 50px; }
+  .home .icon-block:hover {
+    background: #e2e2e2; }
 
-/**
- * Site footer
- */
+/** Footer  **/
 footer {
   background: #e2e2e2;
   position: relative;
@@ -276,7 +286,8 @@ footer {
   margin-left: 0px; }
 
 #subscribe-form {
-  padding-left: 50px; }
+  padding-left: 50px;
+  font-weight: 300; }
 
 #footer-content {
   padding-left: 50px;
@@ -309,7 +320,7 @@ footer {
   width: -webkit-calc(45% - (30px / 2));
   width: calc(45% - (30px / 2)); }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 980px) {
   .footer-col-1,
   .footer-col-2 {
     width: -webkit-calc(50% - (30px / 2));
@@ -318,14 +329,12 @@ footer {
   .footer-col-3 {
     width: -webkit-calc(100% - (30px / 2));
     width: calc(100% - (30px / 2)); } }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 320px) {
   .footer-col {
     float: none;
     width: -webkit-calc(100% - (30px / 2));
     width: calc(100% - (30px / 2)); } }
-/**
- * Page content
- */
+/** Pages **/
 .page-content {
   padding: 30px 0;
   min-height: 700px; }
@@ -358,30 +367,29 @@ footer {
   font-size: 42px;
   letter-spacing: -1px;
   line-height: 1; }
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 980px) {
     .post-title {
       font-size: 36px; } }
 
 .post-content {
   margin-bottom: 30px;
-  max-width: 700px;
   min-width: 300px;
   float: left;
   padding: 50px; }
   .post-content h2 {
     font-size: 26px;
     font-weight: 600; }
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 980px) {
       .post-content h2 {
         font-size: 20px; } }
   .post-content h3 {
     font-size: 20px; }
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 980px) {
       .post-content h3 {
         font-size: 16px; } }
   .post-content h4 {
     font-size: 16px; }
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 980px) {
       .post-content h4 {
         font-size: 12px; } }
 
@@ -410,6 +418,11 @@ form {
 #learn:hover {
   background: transparent;
   color: #212121; }
+
+/** Miscellaneous **/
+#tag-list {
+  margin-top: 50px;
+  color: #607D8B; }
 
 /**
  * Syntax highlighting styles
