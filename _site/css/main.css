@@ -288,6 +288,8 @@ footer {
 #subscribe-form {
   padding-left: 50px;
   font-weight: 300; }
+  #subscribe-form label {
+    font-weight: 300; }
 
 #footer-content {
   padding-left: 50px;
