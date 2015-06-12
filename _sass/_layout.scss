@@ -1,5 +1,30 @@
 /** Site header **/
 
+.navbar-header .navbar-brand {
+    color:$white;
+    font-size:26px;
+    font-weight:600;
+    padding-left: 5px;
+}
+
+.nav {
+    padding-right:20px;
+    li {
+        background: $dark-primary;
+        a {
+        color: $white;
+        }
+        a:hover {
+            color: $accent-color;
+            background: $dark-primary;
+        }
+    }
+}
+
+button.navbar-toggle span.icon-bar {
+    background:white;
+}
+
 .site-header {
     min-height: 56px;
     background: $dark-primary;
@@ -295,7 +320,7 @@ footer {
     }
 
     h3 {
-        font-size: 20px;
+        font-size: 16px;
 
         @include media-query($on-laptop) {
             font-size: 16px;
@@ -349,5 +374,9 @@ form {
 #tag-list {
     margin-top:50px;
     color:$primary;
+}
+
+hr {
+    margin-bottom: 25px;
 }
 

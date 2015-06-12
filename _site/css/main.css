@@ -176,6 +176,25 @@ pre {
     fill: #727272; }
 
 /** Site header **/
+.navbar-header .navbar-brand {
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 600;
+  padding-left: 5px; }
+
+.nav {
+  padding-right: 20px; }
+  .nav li {
+    background: #455A64; }
+    .nav li a {
+      color: #ffffff; }
+    .nav li a:hover {
+      color: #009688;
+      background: #455A64; }
+
+button.navbar-toggle span.icon-bar {
+  background: white; }
+
 .site-header {
   min-height: 56px;
   background: #455A64;
@@ -385,7 +404,7 @@ footer {
       .post-content h2 {
         font-size: 20px; } }
   .post-content h3 {
-    font-size: 20px; }
+    font-size: 16px; }
     @media screen and (max-width: 980px) {
       .post-content h3 {
         font-size: 16px; } }
@@ -425,6 +444,9 @@ form {
 #tag-list {
   margin-top: 50px;
   color: #607D8B; }
+
+hr {
+  margin-bottom: 25px; }
 
 /**
  * Syntax highlighting styles

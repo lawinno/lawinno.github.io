@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Legal Hackers
-permalink: /ecosystem/legal_hackers/
+permalink: /legal_hackers/
 short-description: a global network of local groups interested in law and tech 
 tags: org, coders, lawyers, non-profit
 ---
