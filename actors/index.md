@@ -5,7 +5,7 @@ permalink: /actors/
 categories: main-nav
 ---
 
-This page offers an overview of the people and organizations influencing the future of law.
+This page offers an overview of the people and organizations influencing the future of law through action.
 
 -----
 
@@ -53,7 +53,7 @@ This is a list of organizations. If you want yours to be included, include "org"
 <h3>People</h3>
 <ul>
 	{% for page in site.pages %}
-		{% if page.tags contains "people" %}
+		{% if page.categories contains "people-class" %}
 			<li>
 				<a href="{{ page.url }}">{{ page.title }}</a>: {{ page.short-description }}
 			</li>
