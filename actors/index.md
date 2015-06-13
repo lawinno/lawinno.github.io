@@ -7,10 +7,6 @@ categories: main-nav
 
 This page offers an overview of the people and organizations influencing the future of law through action.
 
------
-
-
-
 {% comment %}
 This is a list of organizations. If you want yours to be included, include "org" in the front matter tags on your page
 {% endcomment %}

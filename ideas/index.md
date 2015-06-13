@@ -6,7 +6,6 @@ categories: main-nav
 ---
 
 This page collects some of the concepts driving change in the legal field.
-<hr>
 
 <ul>
 	{% for page in site.pages %}
